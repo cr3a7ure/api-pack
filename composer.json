@@ -3,8 +3,11 @@
   "type": "symfony-pack",
   "license": "MIT",
   "description": "A pack for API Platform, edited to change the core of api-platform",
+  "repositories": [
+    { "type": "git", "url": "https://github.com/cr3a7ure/core" }
+  ],
   "require": {
-    "cr3a7ure/core": "*",
+    "cr3a7ure/core": "dev-schydrav2",
     "nelmio/cors-bundle": "*",
     "symfony/asset": "*",
     "symfony/expression-language": "*",
